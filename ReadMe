@@ -1,2 +1,14 @@
 Aplicacion para la gestión de reservaciónes en un hotel
 El cliente visualiza las habitaciones disponibles y reserva la que quiere
+
+
+###
+Tienes duplicado el Readme y LICENSE, elimina los de la carpeta.
+¿dónde está tu clase controlador?
+Tienes que hacer un MVC funcional (sólo un método main estático)
+Y ebes implementar que tu Layout permita
+que pongas un JLabel en la Cabecera con el nombre del programa,
+que la ventana principal tenga nombre y
+que lance una ventana de imitación de carga de unos segundos.
+Además, que todos los eventos los gestione el controlador.
+###

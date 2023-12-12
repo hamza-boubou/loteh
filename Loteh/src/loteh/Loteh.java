@@ -10,6 +10,6 @@ public class Loteh {
 		Controle un_Controle = new Controle(un_ModeloDatos,una_VentanaEventoBoton);
 		
 		un_Controle.iniciarVista();
+		
 	}
-
 }

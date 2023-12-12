@@ -13,6 +13,7 @@ public class VentanaEventoBoton extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	JButton bBoton;
 
 	/**
 	 * Launch the application.
@@ -30,7 +31,7 @@ public class VentanaEventoBoton extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton bBoton = new JButton("New button");
+		bBoton = new JButton("New button");
 		bBoton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				

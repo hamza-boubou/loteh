@@ -3,6 +3,13 @@ package vista;
 import java.awt.Color;
 import javax.swing.UIManager;
 
+/**
+ * 
+ * @author Hamza
+ * 
+ */
+
+
 public class Look {
 
     private static String tituloVentanaPrincipal = "Mi App Genial";

@@ -1,5 +1,12 @@
 package modelo;
 
+/**
+ * 
+ * @author Hamza
+ * 
+ */
+
+
 public class ModeloDatos {
 	private String NombreVentana;
 

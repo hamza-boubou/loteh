@@ -8,6 +8,13 @@ import javax.swing.JFrame;
 import modelo.ModeloDatos;
 import vista.VentanaEventoBoton;
 
+/**
+ * 
+ * @author Hamza
+ * 
+ */
+
+
 public class Controle{
 
 

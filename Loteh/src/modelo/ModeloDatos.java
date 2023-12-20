@@ -1,4 +1,4 @@
-package loteh;
+package modelo;
 
 public class ModeloDatos {
 	private String NombreVentana;

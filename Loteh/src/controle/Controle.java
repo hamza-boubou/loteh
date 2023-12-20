@@ -1,9 +1,12 @@
-package loteh;
+package controle;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JFrame;
+
+import modelo.ModeloDatos;
+import vista.VentanaEventoBoton;
 
 public class Controle{
 

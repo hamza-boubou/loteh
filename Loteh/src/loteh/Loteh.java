@@ -1,7 +1,19 @@
 package loteh;
 
+import controle.Controle;
+import modelo.ModeloDatos;
+import vista.VentanaEventoBoton;
+
+/**
+ * 
+ * @author Hamza
+ * 
+ */
+
 public class Loteh {
 
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Iniciando programa ...");

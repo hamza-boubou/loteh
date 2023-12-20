@@ -1,19 +1,20 @@
-package loteh;
-
-import java.awt.EventQueue;
+package vista;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 
 public class VentanaEventoBoton extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-	JButton bBoton;
+	public JButton bBoton;
+	private JPanel panel;
+    public JButton boton;
 
 	/**
 	 * Launch the application.
@@ -30,6 +31,9 @@ public class VentanaEventoBoton extends JFrame {
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		
+		this.setTitle("Loteh"); // Estableciendo el título como "Loteh"
+        contentPane.setBackground(Color.BLUE); // Estableciendo el color de fondo como azul
 		
 		bBoton = new JButton("New button");
 		bBoton.addActionListener(new ActionListener() {

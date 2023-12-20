@@ -8,6 +8,12 @@ import java.awt.event.ActionListener;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 
+/**
+ * 
+ * @author Hamza
+ * 
+ */
+
 public class VentanaEventoBoton extends JFrame {
 
 	private static final long serialVersionUID = 1L;
